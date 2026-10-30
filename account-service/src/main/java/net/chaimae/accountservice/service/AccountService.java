@@ -7,6 +7,8 @@ import java.util.UUID;
 
 import net.chaimae.accountservice.Account.Account;
 import net.chaimae.accountservice.Account.AccountStatus;
+import net.chaimae.accountservice.Account.AccountNotFoundException;
+import net.chaimae.accountservice.Account.InsufficientFundsException;
 import net.chaimae.accountservice.repository.AccountRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
